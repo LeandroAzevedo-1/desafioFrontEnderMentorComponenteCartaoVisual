@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300 & family= Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400 & family= Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700 & display=swap');
+
+body{
+    background: #F0F0F0;
+    font-family: 'Roboto', sans-serif; 
+}
+.container{
+    box-shadow:  3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+    color: #fff;
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    border-radius: 8px; 
+}
+
+.row{
+    width: 20rem;  
+    height: 500px;
+    padding-left: 40px;
+    margin: 20px 0;
+}
+.row h1{
+    margin-top: 20px;
+}
+.row p{
+    width: 200px;
+    padding: 30px 0;
+}
+.row a{
+    margin-top: 20px;
+    display: inline-block;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+.row.item-1 {
+    background: #E28525 ;
+    border-radius: 5px 0 0 5px;
+}
+.row.item-1 a:hover{
+    color:#E28525  ;
+    background: #fff;
+}
+.row.item-2 a:hover{
+    background: #fff;
+    color:#016972  ;
+}
+.row.item-3 a:hover{
+    background: #fff;
+    color:#00403F  ;
+}
+.row.item-2 {
+    background: #016972 ;
+}
+.row.item-3 {
+    background: #00403F ;
+    border-radius: 0 5px 5px 0;
+}
+img{
+    padding-top: 30px;
+}

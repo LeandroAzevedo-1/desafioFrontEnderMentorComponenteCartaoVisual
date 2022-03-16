@@ -1,0 +1,21 @@
+@media(max-width: 1094px){
+    .row.item-1 {
+        margin-bottom: 0;
+        border-radius: 5px 0 0 5px ;
+    }
+    .row.item-2 {
+        margin-bottom: 0;
+    }
+    .row.item-3 {
+        margin-top: 0;
+        border-radius: 0  0  5px 5px;
+    }
+}
+@media(max-width: 738px){
+    .row.item-1 {
+        border-radius: 5px 5px 0 0;
+    }
+    .row.item-2 {
+        margin-top: 0;
+    }
+}
